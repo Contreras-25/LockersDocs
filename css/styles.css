@@ -1,18 +1,18 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #155724; /* verde oscuro elegante */
+  background-color: #06250f; /* verde suave */
 }
 
 .container {
   display: flex;
-  height: calc(100vh - 40px); /* deja espacio para el footer */
+  height: 100vh;
 }
 
 .left {
   flex: 1;
-  background-color: #155724; /* verde oscuro elegante */
-  color: #d4edda; /* texto claro para contraste */
+  background-color: #0c4219;
+  color: #010e04;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,8 +29,8 @@ body {
 
 .right {
   flex: 1;
-  background-color: #155724; /* verde oscuro elegante */
-  color: #d4edda; /* texto claro */
+  background-color: #0c4219;
+  color: #000e03;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,16 +46,14 @@ body {
   width: 50%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #d4edda;
+  border: 1px solid #195528;
   border-radius: 5px;
   text-align: center;
-  background-color: #1e7e34; /* verde intermedio para campos */
-  color: white;
 }
 
 .right button {
   width: 50%;
-  background-color: #28a745; /* verde brillante para botón */
+  background-color: #007bff;
   color: white;
   padding: 10px;
   border: none;
@@ -65,7 +63,7 @@ body {
 }
 
 .right button:hover {
-  background-color: #218838; /* tono más oscuro al pasar el cursor */
+  background-color: #0056b3; /* tono más oscuro al pasar el cursor */
 }
 
 .captcha {
@@ -76,13 +74,4 @@ body {
   border-radius: 5px;
   width: 50%;
   text-align: center;
-}
-
-/* Footer */
-footer {
-  background-color: #0b3d1d; /* verde aún más profundo */
-  color: #d4edda;
-  text-align: center;
-  padding: 10px;
-  font-size: 0.9em;
 }
