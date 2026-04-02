@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #155724; /* verde oscuro elegante */
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 40px); /* deja espacio para el footer */
+}
+
+.left {
+  flex: 1;
+  background-color: #155724; /* verde oscuro elegante */
+  color: #d4edda; /* texto claro para contraste */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  flex-direction: column;
+}
+
+.left img {
+  margin-top: 20px;
+  max-width: 80%;
+  height: auto;
+}
+
+.right {
+  flex: 1;
+  background-color: #155724; /* verde oscuro elegante */
+  color: #d4edda; /* texto claro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right h1 {
+  margin-bottom: 10px;
+}
+
+.right input {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d4edda;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #1e7e34; /* verde intermedio para campos */
+  color: white;
+}
+
+.right button {
+  width: 50%;
+  background-color: #28a745; /* verde brillante para botón */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.right button:hover {
+  background-color: #218838; /* tono más oscuro al pasar el cursor */
+}
+
+.captcha {
+  margin: 15px 0;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #0b3d1d; /* verde aún más profundo */
+  color: #d4edda;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
